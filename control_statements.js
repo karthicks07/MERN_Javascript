@@ -52,3 +52,34 @@ console.log()
 console.log("Length of a4:",a4.length)
 console.log("a4 =",a4)
 console.log()
+
+//for in loop, works based on index
+console.log("for in loop")
+for (const index in a1)
+{
+    console.log("The value present in",index,"is",a1[index])
+}
+console.log()
+console.log("Objects in for in loop")
+console.log("Printing key...")
+var customerDetails = {"Name":"Karthick","Age":"20","Phone":"6381145567"}
+for(key in customerDetails)
+{
+    console.log(key)
+}
+console.log()
+console.log("Printing value...")
+for(value in customerDetails)
+{
+    console.log(value)
+}
+console.log()
+
+//for of loop
+console.log("for of loop")// used to access elements directly
+console.log("The elements of array are,")
+for (const value of a1)
+{
+    console.log(value)
+}
+console.log()
