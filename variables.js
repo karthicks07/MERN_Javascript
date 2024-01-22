@@ -7,4 +7,4 @@ console.log("Value of y",y)
 let z=true
 console.log("Boolean z is",z)
 const d="123456789"
-console.log("Value od d",d)
+console.log("Value of d",d)
