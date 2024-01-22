@@ -37,3 +37,16 @@ staffDetails["Designation"]="Assistant Professor"
 staffDetails["College"]="KSR"
 console.log(staffDetails)
 console.log()
+
+//Accessing data in object (1st method)
+console.log("1st method of accessing data in object")
+console.log(customerDetails.Name)
+console.log(staffDetails.Dept)
+console.log(studentDetails.Age)
+console.log()
+//Accessing data in object (2nd method)
+console.log("2nd method of accessing data in object")
+console.log(staffDetails["College"])
+console.log(studentDetails["Dept"])
+console.log(customerDetails["id"])
+console.log()
