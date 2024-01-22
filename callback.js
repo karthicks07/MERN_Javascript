@@ -7,7 +7,7 @@ function kongu(welcome,Callback)
         Callback();
     },1000)// after 1 second it will call the kec() function.
 }
-function kec()
+function kec() 
 {
     console.log("Dont come here")
 }
