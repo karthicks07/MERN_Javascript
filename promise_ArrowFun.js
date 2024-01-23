@@ -1,6 +1,6 @@
-function isValid()
+isValid=()=>
 {
-    var v="vali"
+    var v="valid"
     if(v=== "valid")
     {
         return true
@@ -11,11 +11,11 @@ function isValid()
     }
 }
 
-function location()
+location=()=>
 {
-    return new Promise(function(noerror,error)
+    return new Promise((noerror,error)=>
     {
-        setTimeout(function()
+        setTimeout(()=>
         {
             if(isValid())
             {
@@ -31,11 +31,11 @@ function location()
 
 
 location()
-.then(function(noerror)
+.then((noerror)=>
 {
     console.log(noerror)
 })
-.catch(function(error)
+.catch((error)=>
 {
     console.log(error)
 })
