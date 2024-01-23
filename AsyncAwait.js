@@ -45,7 +45,7 @@ async function post()
             setTimeout(function()
             {
                 postresponse("This is my first post.")
-            },1000)
+            },5000)
         }
     )
     var [feed,like1,comment1]=await Promise.all([post,like(),comment()])
