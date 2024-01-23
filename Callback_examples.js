@@ -1,3 +1,4 @@
+//Submit form example with single timeout.
 function submitform(message,database)
 {
     setTimeout(function()
@@ -6,8 +7,6 @@ function submitform(message,database)
         database()
     },1000)
 }
-
-
 function database()
 {
     console.log("Form submitted successsfully.")
@@ -15,6 +14,9 @@ function database()
 submitform("Form submit button clicked.",database)
 
 
+
+
+//Post button example with multiple timeouts.
 function postbutton(message,posting)
 {
     setTimeout(function()
