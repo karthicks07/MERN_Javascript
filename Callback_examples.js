@@ -19,7 +19,7 @@ submitform("Form submit button clicked.",database)
 //Post button example with multiple timeouts.
 function postbutton(message,posting)
 {
-    setTimeout(function()
+    setTimeout(()=>
     {
         console.log(message)
         posting()
