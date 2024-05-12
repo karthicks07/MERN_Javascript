@@ -1,4 +1,4 @@
-// const a= <h1>Hello World!</h1>
+// rtett
 // console.log(a)
 // // We cant  write JSX code in javascript
 
